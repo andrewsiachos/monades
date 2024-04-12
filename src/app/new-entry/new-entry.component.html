@@ -1,0 +1,23 @@
+<h2>Προσθήκη Νέας Μονάδας</h2>
+
+<form>
+    <div>
+        <label for="shortName">Σύντομη Ονομασία</label><br>
+        <input type="text" id="shortName" #shortName>
+    </div>
+    
+    <div>
+        <label for="nameEn">Όνομα En</label><br>
+        <input type="text" id="nameEn" #nameEn>
+    </div>
+
+    <div>
+        <label for="nameEl">Όνομα El</label><br>
+        <input type="text" id="nameEl" #nameEl>
+    </div>
+
+    <button type="submit" (click)="addNewData()">Αποθήκευση</button>
+    
+</form>
+
+<p *ngIf="insertSuccess" class="successMessage">Η καταχώρηση ολοκληρώθηκε με επιτυχία!</p>

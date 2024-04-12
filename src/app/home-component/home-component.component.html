@@ -1,0 +1,19 @@
+
+  <main>
+    <table>
+      <tr>
+        <th>Σύντομη Ονομασία</th>
+        <th>Ονομασία En</th>
+        <th>Ονομασία El</th>
+      </tr>
+      <tr *ngFor="let x of currentList; index as i" class="units" (click)="goToUpdate(i)">
+        <td>{{x.shortName}}</td>
+        <td>{{x.nameEn}}</td>
+        <td>{{x.nameEl}} </td>
+      </tr>
+    </table>
+
+    <button id="addNew" (click)="goToAddNew()">Προσθήκη Μονάδας</button>
+    
+
+  </main>

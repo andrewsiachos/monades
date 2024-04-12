@@ -1,0 +1,36 @@
+h2{
+    text-align: center;
+}
+
+form{
+    width: 50%;
+    margin: 30px auto;
+    div{
+        margin-bottom: 15px;
+        label{
+            font-size: 17px;
+        }
+        input[type=text]{
+            width: 100%;
+            padding: 9px 0 9px 7px;
+        }
+    }
+
+    button{
+        background-color: #0bb818;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        padding: 10px;
+        cursor: pointer;
+        &:hover{
+            background-color: #41cf4d;
+        }
+    }
+    
+}
+
+.successMessage{
+    text-align: center;
+    color: green;
+}

@@ -1,0 +1,58 @@
+.units{
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    &:hover{
+        background-color: rgb(218, 216, 216);
+    }
+}
+
+header{
+    display: flex;
+    border-bottom: 1px solid black;
+    width: 88%;
+    margin: 10px auto;
+    h2{
+        width: 33%;
+        font-size: 25px;
+    }
+}
+
+main{
+    width: 88%;
+    margin: 15px auto;
+    div{
+        display: flex;
+        cursor: pointer;
+        p{
+            width: 33%;
+            border-bottom: 1px solid black;
+            padding: 7px;
+        }
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        tr{
+            border-bottom: 1px solid black;
+            th{
+                border-bottom: 1px solid black;
+                text-align: left;
+                font-size: 25px;
+            }
+            td{
+                width: 33%;
+                padding: 7px;
+            }
+        }
+    }
+
+    #addNew{
+        background-color: rgb(50, 50, 248);
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+}
